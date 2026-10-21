@@ -27,8 +27,6 @@ def test_scores() -> None:
 
 def print_scores(scores: list) -> None:
     if not scores:
-        print("No scores provided. Usage: ", end="")
-        print("python3 ft_score_analytics.py <score1> <score2> ...")
         return
         
     print(f"Total score: {sum(scores)}")
