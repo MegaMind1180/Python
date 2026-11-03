@@ -58,10 +58,10 @@ def printer() -> None:
     my_list = []
     for _ in range(10):
         my_list.append(next(generator))
-        
+    print(f"Created list: {my_list}\n")    
     for element in consume_event(my_list):
-        print(f"Got event from list: {element}")
-        print(f"Remains in list: {my_list}")
+        print(f"Got event from list: {element}\n")
+        print(f"Remains in list: {my_list}\n")
 
 if __name__ == "__main__":
     printer()
