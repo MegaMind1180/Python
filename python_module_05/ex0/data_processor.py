@@ -77,7 +77,7 @@ text_proc.ingest("Hallo Welt")
 text_proc.ingest(["Python", "Programmieren"])
 
 log_proc = LogProcessor()
-log_proc.ingest({"status": "OK", "message": "System laeuft"})
+log_proc.ingest({"status": "OK", "message": "System läuft"})
 
 print("Zahlen-Speicher:", num_proc.output())
 print("Text-Speicher:", text_proc.output())
